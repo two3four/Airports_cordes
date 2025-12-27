@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Airports Map</title>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<style>
+body {
+  margin: 0;
+}
+#map {
+  height: 100vh;
+}
+
+/* Label container */
+.airport-label {
+  pointer-events: none;
+}
+
+/* Label bubble */
+.airport-label span {
+  display: inline-block;
+  background: rgba(255,255,255,0.95);
+  color: #b30000;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 4px;
+  border: 1px solid #ffb3b3;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  white-space: nowrap;
+}
+
+/* Tooltip (hover name) */
+.leaflet-tooltip {
+  background: rgba(255,255,255,0.95);
+  color: #333;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- PapaParse -->
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+<script>
+// -------------------- MAP --------------------
+const map = L.map("map").setView([20, 0], 2);
+
+// Light blue basemap
+L.tileLayer(
+  "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+  { attribution: "&copy; OpenStreetMap &copy; CARTO" }
+).addTo(map);
+
+// -------------------- DATA --------------------
+const csvUrl =
+  "https://raw.githubusercontent.com/two3four/Airports_cordes/main/done--airports_448_completed.csv";
+
+const labels = [];
+const LABEL_ZOOM = 6;
+const MIN_PIXEL_DISTANCE = 42;
+
+Papa.parse(csvUrl, {
+  download: true,
+  header: true,
+  dynamicTyping: true,
+  complete: function (results) {
+
+    results.data.forEach(row => {
+      const lat = row["latitude.y"];
+      const lon = row["longitude.y"];
+      const iata = row["iata_code"];
+      const name = row["matched_name"];
+
+      if (!lat || !lon) return;
+
+      // 🔴 Soft red airport dot
+      const dot = L.circleMarker([lat, lon], {
+        radius: 7,
+        color: "#b30000",
+        weight: 1,
+        fillColor: "#ff4d4d",
+        fillOpacity: 0.55
+      }).addTo(map);
+
+      // Hover info
+      dot.bindTooltip(
+        `<strong>${iata || "N/A"}</strong><br>Name: ${name || "N/A"}`,
+        {
+          direction: "top",
+          sticky: true,
+          offset: [0, -10]
+        }
+      );
+
+      // Label (initially hidden)
+      const label = L.marker([lat, lon], {
+        icon: L.divIcon({
+          className: "airport-label",
+          html: `<span>${iata || ""}</span>`,
+          iconAnchor: [10, 30]   // above dot
+        }),
+        interactive: false
+      });
+
+      labels.push({
+        marker: label,
+        latlng: L.latLng(lat, lon)
+      });
+    });
+
+    updateLabels();
+  }
+});
+
+// -------------------- LABEL COLLISION LOGIC --------------------
+function updateLabels() {
+  labels.forEach(l => map.removeLayer(l.marker));
+
+  if (map.getZoom() < LABEL_ZOOM) return;
+
+  const placed = [];
+
+  labels.forEach(l => {
+    const p = map.latLngToContainerPoint(l.latlng);
+
+    const tooClose = placed.some(pp =>
+      Math.abs(pp.x - p.x) < MIN_PIXEL_DISTANCE &&
+      Math.abs(pp.y - p.y) < MIN_PIXEL_DISTANCE
+    );
+
+    if (!tooClose) {
+      l.marker.addTo(map);
+      placed.push(p);
+    }
+  });
+}
+
+// Update on zoom & pan
+map.on("zoomend moveend", updateLabels);
+</script>
+
+</body>
+</html>
