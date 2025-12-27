@@ -1,0 +1,449 @@
+iata_code,airport_name,city,country,latitude.x,longitude.x,status,IATA,matched_name,matched_city,matched_country,latitude.y,longitude.y
+ABE,NA,NA,NA,NA,NA,unknown,ABE,Lehigh Valley International Airport,Allentown,US,40.651773,-75.442797
+ABI,NA,NA,NA,NA,NA,unknown,ABI,Abilene Regional Airport,Abilene,US,32.41130066,-99.68190002
+ABQ,NA,NA,NA,NA,NA,unknown,ABQ,Albuquerque International Sunport,Albuquerque,US,35.039976,-106.608925
+ACT,NA,NA,NA,NA,NA,unknown,ACT,Waco Regional Airport,Waco,US,31.611299514770508,-97.23049927
+ACY,NA,NA,NA,NA,NA,unknown,ACY,Atlantic City International Airport,Atlantic City,US,39.45759963989258,-74.57720184
+ADB,NA,NA,NA,NA,NA,unknown,ADB,Adnan Menderes International Airport,Gaziemir,TR,38.2924,27.157
+ADS,NA,NA,NA,NA,NA,unknown,ADS,Addison Airport,Dallas,US,32.96860123,-96.83640289
+ADW,NA,NA,NA,NA,NA,unknown,ADW,Joint Base Andrews,Camp Springs,US,38.810799,-76.866997
+AEP,NA,NA,NA,NA,NA,unknown,AEP,Jorge Newbery Airpark,Buenos Aires,AR,-34.5592,-58.4156
+AEX,NA,NA,NA,NA,NA,unknown,AEX,Alexandria International Airport,Alexandria,US,31.3274,-92.549797
+AFW,NA,NA,NA,NA,NA,unknown,AFW,Perot Field/Fort Worth Alliance Airport,Fort Worth,US,32.99044,-97.31947
+AGS,NA,NA,NA,NA,NA,unknown,AGS,Augusta Regional At Bush Field,Augusta,US,33.3699,-81.9645
+AGU,NA,NA,NA,NA,NA,unknown,AGU,Jesús Terán Peredo International Airport,Aguascalientes,MX,21.699589,-102.318372
+ALB,NA,NA,NA,NA,NA,unknown,ALB,Albany International Airport,Albany,US,42.74829864501953,-73.80169678
+ALO,NA,NA,NA,NA,NA,unknown,ALO,Waterloo Regional Airport,Waterloo,US,42.557098388671875,-92.40029907
+AMA,NA,NA,NA,NA,NA,unknown,AMA,Rick Husband Amarillo International Airport,Amarillo,US,35.219398,-101.706001
+AMS,NA,NA,NA,NA,NA,unknown,AMS,Amsterdam Airport Schiphol,Amsterdam,NL,52.308601,4.76389
+ANU,NA,NA,NA,NA,NA,unknown,ANU,V C Bird International Airport,Osbourn,AG,17.1367,-61.792702
+AOK,NA,NA,NA,NA,NA,unknown,AOK,Karpathos Airport,Karpathos Island,GR,35.421398,27.146
+ASU,NA,NA,NA,NA,NA,unknown,ASU,Aeropuerto Internacional Silvio Pettirossi,Asunción,PY,-25.240156,-57.519227
+ATH,NA,NA,NA,NA,NA,unknown,ATH,Athens Eleftherios Venizelos International Airport,Spata-Artemida,GR,37.936401,23.9445
+ATL,NA,NA,NA,NA,NA,unknown,ATL,Hartsfield Jackson Atlanta International Airport,Atlanta,US,33.6367,-84.428101
+AUA,NA,NA,NA,NA,NA,unknown,AUA,Queen Beatrix International Airport,Oranjestad,AW,12.5014,-70.015198
+AUS,NA,NA,NA,NA,NA,unknown,AUS,Austin Bergstrom International Airport,Austin,US,30.197535,-97.662015
+AYT,NA,NA,NA,NA,NA,unknown,AYT,Antalya International Airport,Antalya,TR,36.898701,30.800501
+AZA,NA,NA,NA,NA,NA,unknown,AZA,Mesa Gateway Airport,Mesa,US,33.3078,-111.654999
+AZO,NA,NA,NA,NA,NA,unknown,AZO,Kalamazoo Battle Creek International Airport,Kalamazoo,US,42.234901428222656,-85.55210114
+BAF,NA,NA,NA,NA,NA,unknown,BAF,Westfield-Barnes Regional Airport,Westfield,US,42.157799,-72.715599
+BAQ,NA,NA,NA,NA,NA,unknown,BAQ,Ernesto Cortissoz International Airport,Barranquilla,CO,10.8896,-74.7808
+BBU,NA,NA,NA,NA,NA,unknown,BBU,Bucharest Baneasa Aurel Vlaicu International Airport,Bucharest,RO,44.503201,26.1021
+BCN,NA,NA,NA,NA,NA,unknown,BCN,Josep Tarradellas Barcelona-El Prat Airport,Barcelona,ES,41.2971,2.07846
+BDA,NA,NA,NA,NA,NA,unknown,BDA,L.F. Wade International Airport,Hamilton,BM,32.363998,-64.678703
+BDL,NA,NA,NA,NA,NA,unknown,BDL,Bradley International Airport,Hartford,US,41.93851,-72.688066
+BED,NA,NA,NA,NA,NA,unknown,BED,Laurence G Hanscom Field,Bedford,US,42.470001,-71.289001
+BFI,NA,NA,NA,NA,NA,unknown,BFI,Boeing Field King County International Airport,Seattle,US,47.529999,-122.302002
+BFL,NA,NA,NA,NA,NA,unknown,BFL,Meadows Field,Bakersfield,US,35.433601,-119.056999
+BFM,NA,NA,NA,NA,NA,unknown,BFM,Mobile Downtown Airport,Mobile,US,30.626800537100003,-88.06809998
+BGI,NA,NA,NA,NA,NA,unknown,BGI,Grantley Adams International Airport,Bridgetown,BB,13.0746,-59.4925
+BGR,NA,NA,NA,NA,NA,unknown,BGR,Bangor International Airport,Bangor,US,44.8074,-68.828102
+BGY,NA,NA,NA,NA,NA,unknown,BGY,Milan Bergamo Airport / Antonio Locatelli Air Base,Orio al Serio (BG),IT,45.670725,9.709223
+BHM,NA,NA,NA,NA,NA,unknown,BHM,Birmingham-Shuttlesworth International Airport,Birmingham,US,33.562901,-86.753502
+BIF,NA,NA,NA,NA,NA,unknown,BIF,Biggs Army Air Field (Fort Bliss),Fort Bliss/El Paso,US,31.84950066,-106.3799973
+BIL,NA,NA,NA,NA,NA,unknown,BIL,Billings Logan International Airport,Billings,US,45.807701,-108.542999
+BIS,NA,NA,NA,NA,NA,unknown,BIS,Bismarck Municipal Airport,Bismarck,US,46.772701263427734,-100.7460022
+BJC,NA,NA,NA,NA,NA,unknown,BJC,Rocky Mountain Metropolitan Airport,Denver,US,39.908798,-105.116997
+BJV,NA,NA,NA,NA,NA,unknown,BJV,Milas Bodrum International Airport,Bodrum,TR,37.250599,27.664301
+BJX,NA,NA,NA,NA,NA,unknown,BJX,Del Bajío International Airport,Silao,MX,20.992695,-101.480284
+BKL,NA,NA,NA,NA,NA,unknown,BKL,Burke Lakefront Airport,Cleveland,US,41.51750183105469,-81.6832962
+BLB,NA,NA,NA,NA,NA,unknown,BLB,Panamá Pacífico International Airport,Panamá City,PA,8.91479,-79.599602
+BLQ,NA,NA,NA,NA,NA,unknown,BLQ,Bologna Guglielmo Marconi Airport,Bologna,IT,44.5354,11.2887
+BMG,NA,NA,NA,NA,NA,unknown,BMG,Monroe County Airport,Bloomington,US,39.145999908447266,-86.61669922
+BNA,NA,NA,NA,NA,NA,unknown,BNA,Nashville International Airport,Nashville,US,36.1245,-86.6782
+BOG,NA,NA,NA,NA,NA,unknown,BOG,El Dorado International Airport,Bogota,CO,4.70159,-74.1469
+BOI,NA,NA,NA,NA,NA,unknown,BOI,Boise Air Terminal/Gowen Field,Boise,US,43.5644,-116.223
+BOJ,NA,NA,NA,NA,NA,unknown,BOJ,Burgas Airport,Burgas,BG,42.569917,27.515173
+BOS,NA,NA,NA,NA,NA,unknown,BOS,Logan International Airport,Boston,US,42.36197,-71.0079
+BQN,NA,NA,NA,NA,NA,unknown,BQN,Rafael Hernández International Airport,Aguadilla,PR,18.4949,-67.129402
+BRI,NA,NA,NA,NA,NA,unknown,BRI,Bari Karol Wojtyla International Airport,Bari,IT,41.138901,16.760599
+BRO,NA,NA,NA,NA,NA,unknown,BRO,Brownsville South Padre Island International Airport,Brownsville,US,25.90679931640625,-97.42590332
+BSB,NA,NA,NA,NA,NA,unknown,BSB,Presidente Juscelino Kubitschek International Airport,Brasília,BR,-15.869167,-47.920834
+BTM,NA,NA,NA,NA,NA,unknown,BTM,Bert Mooney Airport,Butte,US,45.95479965209961,-112.4970016
+BTR,NA,NA,NA,NA,NA,unknown,BTR,Baton Rouge Metropolitan Airport,Baton Rouge,US,30.533199,-91.149597
+BTV,NA,NA,NA,NA,NA,unknown,BTV,Burlington International Airport,South Burlington,US,44.471901,-73.153297
+BUF,NA,NA,NA,NA,NA,unknown,BUF,Buffalo Niagara International Airport,Buffalo,US,42.940498,-78.732201
+BUR,NA,NA,NA,NA,NA,unknown,BUR,Hollywood Burbank Airport,Burbank,US,34.197703,-118.356378
+BVA,NA,NA,NA,NA,NA,unknown,BVA,Beauvais Tillé airport,Beauvais,FR,49.454399,2.11278
+BWI,NA,NA,NA,NA,NA,unknown,BWI,Baltimore/Washington International Thurgood Marshall Airport,Baltimore,US,39.1754,-76.668297
+BZE,NA,NA,NA,NA,NA,unknown,BZE,Philip S. W. Goldson International Airport,Belize City,BZ,17.539951,-88.303556
+BZN,NA,NA,NA,NA,NA,unknown,BZN,Bozeman Yellowstone International Airport,Bozeman,US,45.7775,-111.153
+CAE,NA,NA,NA,NA,NA,unknown,CAE,Columbia Metropolitan Airport,Columbia,US,33.938801,-81.119499
+CAK,NA,NA,NA,NA,NA,unknown,CAK,Akron Canton Regional Airport,Akron,US,40.91609954833984,-81.44219971
+CAP,NA,NA,NA,NA,NA,unknown,CAP,Cap Haitien International Airport,Cap Haitien,HT,19.726734,-72.199576
+CAY,NA,NA,NA,NA,NA,unknown,CAY,Cayenne ? Félix Eboué Airport,Matoury,GF,4.819964,-52.361326
+CCS,NA,NA,NA,NA,NA,unknown,CCS,Maiquetía Simón Bolívar International Airport,Maiquetía,VE,10.601194,-66.991222
+CDC,NA,NA,NA,NA,NA,unknown,CDC,Cedar City Regional Airport,Cedar City,US,37.70100021362305,-113.098999
+CEF,NA,NA,NA,NA,NA,unknown,CEF,Westover Metropolitan Airport / Westover Air Reserve Base,Chicopee,US,42.194,-72.534798
+CFG,NA,NA,NA,NA,NA,unknown,CFG,Jaime Gonzalez Airport,Cienfuegos,CU,22.149999618530273,-80.41419983
+CFU,NA,NA,NA,NA,NA,unknown,CFU,Corfu Ioannis Kapodistrias International Airport,Kerkyra (Corfu),GR,39.602024,19.912038
+CGI,NA,NA,NA,NA,NA,unknown,CGI,Cape Girardeau Regional Airport,Cape Girardeau,US,37.2253,-89.570801
+CHA,NA,NA,NA,NA,NA,unknown,CHA,Chattanooga Metropolitan Airport (Lovell Field),Chattanooga,US,35.035301,-85.203796
+CHO,NA,NA,NA,NA,NA,unknown,CHO,Charlottesville Albemarle Airport,Charlottesville,US,38.13859939575195,-78.45290375
+CHQ,NA,NA,NA,NA,NA,unknown,CHQ,Chania International Airport,Souda,GR,35.5317,24.1497
+CHS,NA,NA,NA,NA,NA,unknown,CHS,Charleston International Airport,Charleston,US,32.898602,-80.040497
+CID,NA,NA,NA,NA,NA,unknown,CID,The Eastern Iowa Airport,Cedar Rapids,US,41.884701,-91.7108
+CKB,NA,NA,NA,NA,NA,unknown,CKB,North Central West Virginia Airport,Bridgeport,US,39.2966,-80.228104
+CLE,NA,NA,NA,NA,NA,unknown,CLE,Cleveland Hopkins International Airport,Cleveland,US,41.411701,-81.8498
+CLL,NA,NA,NA,NA,NA,unknown,CLL,Easterwood Field,College Station,US,30.5886,-96.3638
+CLT,NA,NA,NA,NA,NA,unknown,CLT,Charlotte Douglas International Airport,Charlotte,US,35.2140007019043,-80.94309998
+CMH,NA,NA,NA,NA,NA,unknown,CMH,John Glenn Columbus International Airport,Columbus,US,39.998001,-82.891899
+CMI,NA,NA,NA,NA,NA,unknown,CMI,University of Illinois Willard Airport,Savoy,US,40.039819,-88.276249
+CMW,NA,NA,NA,NA,NA,unknown,CMW,Ignacio Agramonte International Airport,Camaguey,CU,21.420299530029297,-77.84750366
+CNF,NA,NA,NA,NA,NA,unknown,CNF,Tancredo Neves International Airport,Belo Horizonte,BR,-19.63571,-43.966928
+COR,NA,NA,NA,NA,NA,unknown,COR,Ingeniero Ambrosio Taravella Airport,Cordoba,AR,-31.323601,-64.208
+COU,NA,NA,NA,NA,NA,unknown,COU,Columbia Regional Airport,Columbia,US,38.8181,-92.219597
+CPS,NA,NA,NA,NA,NA,unknown,CPS,St Louis Downtown Airport,Cahokia/St Louis,US,38.570701599100005,-90.15619659
+CRP,NA,NA,NA,NA,NA,unknown,CRP,Corpus Christi International Airport,Corpus Christi,US,27.770399,-97.501198
+CSG,NA,NA,NA,NA,NA,unknown,CSG,Columbus Metropolitan Airport,Columbus,US,32.516300201416016,-84.93890381
+CSL,NA,NA,NA,NA,NA,unknown,CSL,Cabo San Lucas International Airport,Cabo San Lucas,MX,22.946711,109.935652
+CTA,NA,NA,NA,NA,NA,unknown,CTA,Catania-Fontanarossa Airport,Catania,IT,37.466801,15.0664
+CTG,NA,NA,NA,NA,NA,unknown,CTG,Rafael Nuñez International Airport,Cartagena,CO,10.4424,-75.513
+CUN,NA,NA,NA,NA,NA,unknown,CUN,Cancún International Airport,Cancún,MX,21.039444,-86.874304
+CUR,NA,NA,NA,NA,NA,unknown,CUR,Hato International Airport,Willemstad,CW,12.1889,-68.959801
+CUU,NA,NA,NA,NA,NA,unknown,CUU,General Roberto Fierro Villalobos International Airport,Chihuahua,MX,28.7029,-105.964996
+CVG,NA,NA,NA,NA,NA,unknown,CVG,Cincinnati Northern Kentucky International Airport,Cincinnati / Covington,US,39.048801,-84.667801
+CWB,NA,NA,NA,NA,NA,unknown,CWB,Afonso Pena Airport,Curitiba,BR,-25.5285,-49.1758
+CXO,NA,NA,NA,NA,NA,unknown,CXO,Conroe-North Houston Regional Airport,Houston,US,30.351801,-95.414497
+CYS,NA,NA,NA,NA,NA,unknown,CYS,Cheyenne Regional Jerry Olson Field,Cheyenne,US,41.155701,-104.811997
+DAB,NA,NA,NA,NA,NA,unknown,DAB,Daytona Beach International Airport,Daytona Beach,US,29.179899,-81.058098
+DAL,NA,NA,NA,NA,NA,unknown,DAL,Dallas Love Field,Dallas,US,32.847099,-96.851799
+DAY,NA,NA,NA,NA,NA,unknown,DAY,James M Cox Dayton International Airport,Dayton,US,39.902401,-84.219398
+DCA,NA,NA,NA,NA,NA,unknown,DCA,Ronald Reagan Washington National Airport,Washington,US,38.8521,-77.037697
+DEN,NA,NA,NA,NA,NA,unknown,DEN,Denver International Airport,Denver,US,39.861698150635,-104.6729965
+DFW,NA,NA,NA,NA,NA,unknown,DFW,Dallas Fort Worth International Airport,Dallas-Fort Worth,US,32.896801,-97.038002
+DJE,NA,NA,NA,NA,NA,unknown,DJE,Djerba Zarzis International Airport,Mellita,TN,33.875,10.7755
+DLM,NA,NA,NA,NA,NA,unknown,DLM,Dalaman International Airport,Dalaman,TR,36.71310043,28.79249954
+DMA,NA,NA,NA,NA,NA,unknown,DMA,Davis Monthan Air Force Base,Tucson,US,32.16650009,-110.8830032
+DOV,NA,NA,NA,NA,NA,unknown,DOV,Dover Air Force Base,Dover,US,39.129501,-75.466003
+DPG,NA,NA,NA,NA,NA,unknown,DPG,Michael AAF (Dugway Proving Ground) Airport,Dugway Proving Ground,US,40.197396,-112.935094
+DSM,NA,NA,NA,NA,NA,unknown,DSM,Des Moines International Airport,Des Moines,US,41.534,-93.663101
+DTM,NA,NA,NA,NA,NA,unknown,DTM,Dortmund Airport,Dortmund,DE,51.518299,7.61224
+DTW,NA,NA,NA,NA,NA,unknown,DTW,Detroit Metropolitan Wayne County Airport,Detroit,US,42.21377,-83.353786
+DYU,NA,NA,NA,NA,NA,unknown,DYU,Dushanbe International Airport,Dushanbe,TJ,38.543746,68.822977
+ECP,NA,NA,NA,NA,NA,unknown,ECP,Northwest Florida Beaches International Airport,Panama City Beach,US,30.357106,-85.795414
+EDF,NA,NA,NA,NA,NA,unknown,EDF,Elmendorf Air Force Base,Anchorage,US,61.251709,-149.807097
+EFD,NA,NA,NA,NA,NA,unknown,EFD,Ellington Airport,Houston,US,29.6072998,-95.15879822
+EFL,NA,NA,NA,NA,NA,unknown,EFL,Kefallinia Airport,Kefallinia Island,GR,38.12009811401367,20.500499725341797
+EIN,NA,NA,NA,NA,NA,unknown,EIN,Eindhoven Airport,Eindhoven,NL,51.45009995,5.374529839
+ELP,NA,NA,NA,NA,NA,unknown,ELP,El Paso International Airport,El Paso,US,31.807199,-106.377998
+EUG,NA,NA,NA,NA,NA,unknown,EUG,Mahlon Sweet Field,Eugene,US,44.12459945678711,-123.211998
+EVV,NA,NA,NA,NA,NA,unknown,EVV,Evansville Regional Airport,Evansville,US,38.03699875,-87.53240204
+EWR,NA,NA,NA,NA,NA,unknown,EWR,Newark Liberty International Airport,Newark,US,40.692501,-74.168701
+EZE,NA,NA,NA,NA,NA,unknown,EZE,Minister Pistarini International Airport,Buenos Aires (Ezeiza),AR,-34.8222,-58.5358
+FAR,NA,NA,NA,NA,NA,unknown,FAR,Hector International Airport,Fargo,US,46.92070007324219,-96.81580353
+FCA,NA,NA,NA,NA,NA,unknown,FCA,Glacier Park International Airport,Kalispell,US,48.31050109863281,-114.2559967
+FCO,NA,NA,NA,NA,NA,unknown,FCO,Rome?Fiumicino Leonardo da Vinci International Airport,Rome,IT,41.804532,12.251998
+FHU,NA,NA,NA,NA,NA,unknown,FHU,Sierra Vista Municipal Airport / Libby Army Air Field,Fort Huachuca / Sierra Vista,US,31.587383,-110.348225
+FLG,NA,NA,NA,NA,NA,unknown,FLG,Flagstaff Pulliam International Airport,Flagstaff,US,35.1385,-111.670998
+FLL,NA,NA,NA,NA,NA,unknown,FLL,Fort Lauderdale Hollywood International Airport,Fort Lauderdale,US,26.072599,-80.152702
+FMM,NA,NA,NA,NA,NA,unknown,FMM,Memmingen Allgau Airport,Memmingen,DE,47.988800048799995,10.23950005
+FOE,NA,NA,NA,NA,NA,unknown,FOE,Topeka Regional Airport,Topeka,US,38.950901,-95.663597
+FOR,NA,NA,NA,NA,NA,unknown,FOR,Pinto Martins International Airport,Fortaleza,BR,-3.775833,-38.532222
+FPO,NA,NA,NA,NA,NA,unknown,FPO,Grand Bahama International Airport,Freeport,BS,26.55870056,-78.69560242
+FRG,NA,NA,NA,NA,NA,unknown,FRG,Republic Airport,Farmingdale,US,40.72880173,-73.41339874
+FSD,NA,NA,NA,NA,NA,unknown,FSD,Sioux Falls Regional Airport / Joe Foss Field,Sioux Falls,US,43.585463,-96.741152
+FTW,NA,NA,NA,NA,NA,unknown,FTW,Fort Worth Meacham International Airport,Fort Worth,US,32.819801,-97.362396
+FWA,NA,NA,NA,NA,NA,unknown,FWA,Fort Wayne International Airport,Fort Wayne,US,40.9785,-85.195099
+FYV,NA,NA,NA,NA,NA,unknown,FYV,Drake Field,Fayetteville,US,36.00510025024414,-94.17009735
+GCM,NA,NA,NA,NA,NA,unknown,GCM,Owen Roberts International Airport,George Town,KY,19.292801,-81.357697
+GCN,NA,NA,NA,NA,NA,unknown,GCN,Grand Canyon National Park Airport,Grand Canyon - Tusayan,US,35.9524,-112.147003
+GDL,NA,NA,NA,NA,NA,unknown,GDL,Guadalajara International Airport,Guadalajara,MX,20.523342,-103.310108
+GEG,NA,NA,NA,NA,NA,unknown,GEG,Spokane International Airport,Spokane,US,47.6199,-117.533997
+GEO,NA,NA,NA,NA,NA,unknown,GEO,Cheddi Jagan International Airport,Georgetown,GY,6.49855,-58.254101
+GFK,NA,NA,NA,NA,NA,unknown,GFK,Grand Forks International Airport,Grand Forks,US,47.949299,-97.176102
+GGG,NA,NA,NA,NA,NA,unknown,GGG,East Texas Regional Airport,Longview,US,32.38399887084961,-94.71150208
+GGT,NA,NA,NA,NA,NA,unknown,GGT,Exuma International Airport,Moss Town,BS,23.562599,-75.877998
+GIG,NA,NA,NA,NA,NA,unknown,GIG,Rio Galeão ? Tom Jobim International Airport,Rio De Janeiro,BR,-22.809999,-43.250557
+GJT,NA,NA,NA,NA,NA,unknown,GJT,Grand Junction Regional Airport,Grand Junction,US,39.126663,-108.529387
+GND,NA,NA,NA,NA,NA,unknown,GND,Maurice Bishop International Airport,Saint George's,GD,12.0042,-61.786201
+GNV,NA,NA,NA,NA,NA,unknown,GNV,Gainesville Regional Airport,Gainesville,US,29.69009972,-82.27179718
+GPT,NA,NA,NA,NA,NA,unknown,GPT,Gulfport Biloxi International Airport,Gulfport,US,30.407301,-89.070099
+GRK,NA,NA,NA,NA,NA,unknown,GRK,Killeen Regional Airport / Robert Gray Army Airfield,Fort Cavazos,US,31.0672,-97.828903
+GRQ,NA,NA,NA,NA,NA,unknown,GRQ,Groningen Airport Eelde,Groningen,NL,53.119701,6.57944
+GRR,NA,NA,NA,NA,NA,unknown,GRR,Gerald R. Ford International Airport,Grand Rapids,US,42.88079834,-85.52279663
+GRU,NA,NA,NA,NA,NA,unknown,GRU,Guarulhos - Governador André Franco Montoro International Airport,São Paulo,BR,-23.431944,-46.467778
+GSO,NA,NA,NA,NA,NA,unknown,GSO,Piedmont Triad International Airport,Greensboro,US,36.097801,-79.937302
+GSP,NA,NA,NA,NA,NA,unknown,GSP,Greenville Spartanburg International Airport,Greer,US,34.895699,-82.218903
+GTF,NA,NA,NA,NA,NA,unknown,GTF,Great Falls International Airport,Great Falls,US,47.48199844,-111.3710022
+GTR,NA,NA,NA,NA,NA,unknown,GTR,Golden Triangle Regional Airport,Columbus/W Point/Starkville,US,33.450298,-88.5914
+GUA,NA,NA,NA,NA,NA,unknown,GUA,La Aurora Airport,Guatemala City,GT,14.5833,-90.527496
+GUS,NA,NA,NA,NA,NA,unknown,GUS,Grissom Air Reserve Base,Peru,US,40.648102,-86.1521
+GVA,NA,NA,NA,NA,NA,unknown,GVA,Geneva Cointrin International Airport,Geneva,CH,46.238098,6.10895
+GYE,NA,NA,NA,NA,NA,unknown,GYE,José Joaquín de Olmedo International Airport,Guayaquil,EC,-2.15742,-79.883598
+GYY,NA,NA,NA,NA,NA,unknown,GYY,Gary Chicago International Airport,Gary,US,41.61629867553711,-87.41280365
+HAV,NA,NA,NA,NA,NA,unknown,HAV,José Martí International Airport,Havana,CU,22.989200592041016,-82.40910339
+HER,NA,NA,NA,NA,NA,unknown,HER,Heraklion International Nikos Kazantzakis Airport,Heraklion,GR,35.339699,25.1803
+HGR,NA,NA,NA,NA,NA,unknown,HGR,Hagerstown Regional Richard A Henson Field,Hagerstown,US,39.708771,-77.728014
+HHN,NA,NA,NA,NA,NA,unknown,HHN,Frankfurt-Hahn Airport,Frankfurt am Main (Lautzenhausen),DE,49.9487,7.26389
+HLN,NA,NA,NA,NA,NA,unknown,HLN,Helena Regional Airport,Helena,US,46.6068,-111.983002
+HMN,NA,NA,NA,NA,NA,unknown,HMN,Holloman Air Force Base,Alamogordo,US,32.852501,-106.107002
+HOG,NA,NA,NA,NA,NA,unknown,HOG,Frank Pais International Airport,Holguin,CU,20.785600662231445,-76.31510162
+HOP,NA,NA,NA,NA,NA,unknown,HOP,Campbell Army Airfield (Fort Campbell),Fort Campbell,US,36.674154,-87.48974
+HOU,NA,NA,NA,NA,NA,unknown,HOU,William P Hobby Airport,Houston,US,29.645399,-95.2789
+HPN,NA,NA,NA,NA,NA,unknown,HPN,Westchester County Airport,White Plains,US,41.06700134277344,-73.70760345
+HRL,NA,NA,NA,NA,NA,unknown,HRL,Valley International Airport,Harlingen,US,26.228500366210938,-97.65440369
+HST,NA,NA,NA,NA,NA,unknown,HST,Homestead ARB Airport,Homestead,US,25.48859978,-80.38359833
+HTS,NA,NA,NA,NA,NA,unknown,HTS,Tri-State Airport / Milton J. Ferguson Field,Huntington,US,38.366699,-82.557999
+HUF,NA,NA,NA,NA,NA,unknown,HUF,"Terre Haute Regional Airport, Hulman Field",Terre Haute,US,39.4515,-87.307602
+HVN,NA,NA,NA,NA,NA,unknown,HVN,Tweed New Haven Airport,New Haven,US,41.26369858,-72.88680267
+IAD,NA,NA,NA,NA,NA,unknown,IAD,Washington Dulles International Airport,Dulles,US,38.9445,-77.455803
+IAG,NA,NA,NA,NA,NA,unknown,IAG,Niagara Falls International Airport,Niagara Falls,US,43.1073,-78.946198
+IAH,NA,NA,NA,NA,NA,unknown,IAH,George Bush Intercontinental Houston Airport,Houston,US,29.984399795532227,-95.34140015
+IBZ,NA,NA,NA,NA,NA,unknown,IBZ,Ibiza Airport,Ibiza (Eivissa),ES,38.872898,1.37312
+ICT,NA,NA,NA,NA,NA,unknown,ICT,Wichita Eisenhower National Airport,Wichita,US,37.649899,-97.433098
+IDA,NA,NA,NA,NA,NA,unknown,IDA,Idaho Falls Regional Airport,Idaho Falls,US,43.514599,-112.070999
+ILG,NA,NA,NA,NA,NA,unknown,ILG,Wilmington Airport,Wilmington,US,39.678699,-75.606499
+IND,NA,NA,NA,NA,NA,unknown,IND,Indianapolis International Airport,Indianapolis,US,39.7173,-86.294403
+INT,NA,NA,NA,NA,NA,unknown,INT,Smith Reynolds Airport,Winston Salem,US,36.13370132446289,-80.22200012
+ISP,NA,NA,NA,NA,NA,unknown,ISP,Long Island Mac Arthur Airport,Islip,US,40.79520035,-73.10019684
+ITH,NA,NA,NA,NA,NA,unknown,ITH,Ithaca Tompkins Regional Airport,Ithaca,US,42.49100112915039,-76.45839691
+JAN,NA,NA,NA,NA,NA,unknown,JAN,Jackson-Medgar Wiley Evers International Airport,Jackson,US,32.311199,-90.075897
+JAX,NA,NA,NA,NA,NA,unknown,JAX,Jacksonville International Airport,Jacksonville,US,30.492469,-81.687813
+JFK,NA,NA,NA,NA,NA,unknown,JFK,John F Kennedy International Airport,New York,US,40.639447,-73.779317
+JQF,NA,NA,NA,NA,NA,unknown,JQF,Concord-Padgett Regional Airport,Concord,US,35.380864,-80.714252
+KBL,NA,NA,NA,NA,NA,unknown,KBL,Kabul International Airport,Kabul,AF,34.565899,69.212303
+KEF,NA,NA,NA,NA,NA,unknown,KEF,Keflavik International Airport,Reykjavík,IS,63.985001,-22.6056
+KGS,NA,NA,NA,NA,NA,unknown,KGS,Kos Airport,Kos Island,GR,36.794523,27.09115
+KIN,NA,NA,NA,NA,NA,unknown,KIN,Norman Manley International Airport,Kingston,JM,17.935699462890625,-76.78749847
+LAF,NA,NA,NA,NA,NA,unknown,LAF,Purdue University Airport,West Lafayette,US,40.412875,-86.939363
+LAL,NA,NA,NA,NA,NA,unknown,LAL,Lakeland Linder International/Regional Airport,Lakeland,US,27.987656,-82.018776
+LAN,NA,NA,NA,NA,NA,unknown,LAN,Capital City Airport,Lansing,US,42.77870178222656,-84.58740234
+LAR,NA,NA,NA,NA,NA,unknown,LAR,Laramie Regional Airport,Laramie,US,41.31209945678711,-105.6750031
+LAS,NA,NA,NA,NA,NA,unknown,LAS,Harry Reid International Airport,Las Vegas,US,36.083361,-115.151817
+LAX,NA,NA,NA,NA,NA,unknown,LAX,Los Angeles International Airport,Los Angeles,US,33.942501,-118.407997
+LBB,NA,NA,NA,NA,NA,unknown,LBB,Lubbock Preston Smith International Airport,Lubbock,US,33.663601,-101.822998
+LCK,NA,NA,NA,NA,NA,unknown,LCK,Rickenbacker International Airport,Columbus,US,39.813801,-82.927803
+LEX,NA,NA,NA,NA,NA,unknown,LEX,Blue Grass Airport,Lexington,US,38.036499,-84.605904
+LFT,NA,NA,NA,NA,NA,unknown,LFT,Lafayette Regional Airport,Lafayette,US,30.205299,-91.987602
+LGA,NA,NA,NA,NA,NA,unknown,LGA,LaGuardia Airport,New York,US,40.777199,-73.872597
+LGB,NA,NA,NA,NA,NA,unknown,LGB,Long Beach International Airport,Long Beach,US,33.816523,-118.149891
+LIM,NA,NA,NA,NA,NA,unknown,LIM,Jorge Chávez International Airport,Lima,PE,-12.0219,-77.114305
+LIR,NA,NA,NA,NA,NA,unknown,LIR,Guanacaste Airport,Liberia,CR,10.5933,-85.544403
+LIT,NA,NA,NA,NA,NA,unknown,LIT,Bill & Hillary Clinton National Airport/Adams Field,Little Rock,US,34.729582,-92.223728
+LNK,NA,NA,NA,NA,NA,unknown,LNK,Lincoln Airport,Lincoln,US,40.85100173950195,-96.75920105
+LRD,NA,NA,NA,NA,NA,unknown,LRD,Laredo International Airport,Laredo,US,27.543800354003903,-99.46160126
+LRM,NA,NA,NA,NA,NA,unknown,LRM,Casa De Campo International Airport,La Romana,DO,18.452222,-68.911111
+LSE,NA,NA,NA,NA,NA,unknown,LSE,La Crosse Regional Airport,La Crosse,US,43.879002,-91.256699
+LUK,NA,NA,NA,NA,NA,unknown,LUK,Cincinnati Municipal Airport Lunken Field,Cincinnati,US,39.102357,-84.418945
+LWB,NA,NA,NA,NA,NA,unknown,LWB,Greenbrier Valley Airport,Lewisburg,US,37.857914,-80.400438
+LYH,NA,NA,NA,NA,NA,unknown,LYH,Lynchburg Regional Airport - Preston Glenn Field,Lynchburg,US,37.326698,-79.200401
+MAO,NA,NA,NA,NA,NA,unknown,MAO,Eduardo Gomes International Airport,Manaus,BR,-3.03861,-60.049702
+MBJ,NA,NA,NA,NA,NA,unknown,MBJ,Sangster International Airport,Montego Bay,JM,18.5037,-77.913399
+MCI,NA,NA,NA,NA,NA,unknown,MCI,Kansas City International Airport,Kansas City,US,39.2976,-94.713898
+MCN,NA,NA,NA,NA,NA,unknown,MCN,Middle Georgia Regional Airport,Macon,US,32.69279861450195,-83.64920044
+MCO,NA,NA,NA,NA,NA,unknown,MCO,Orlando International Airport,Orlando,US,28.429399490356445,-81.30899811
+MDE,NA,NA,NA,NA,NA,unknown,MDE,Jose Maria Córdova International Airport,Medellín,CO,6.16454,-75.4231
+MDH,NA,NA,NA,NA,NA,unknown,MDH,Southern Illinois Airport,Murphysboro,US,37.778099,-89.251999
+MDT,NA,NA,NA,NA,NA,unknown,MDT,Harrisburg International Airport,Harrisburg,US,40.193501,-76.763397
+MDW,NA,NA,NA,NA,NA,unknown,MDW,Chicago Midway International Airport,Chicago,US,41.785999,-87.752403
+MEC,NA,NA,NA,NA,NA,unknown,MEC,Eloy Alfaro International Airport,Manta,EC,-0.946078002,-80.67880249
+MEM,NA,NA,NA,NA,NA,unknown,MEM,Memphis International Airport,Memphis,US,35.0424,-89.9767
+MEX,NA,NA,NA,NA,NA,unknown,MEX,Benito Juárez International Airport,Ciudad de México,MX,19.435137,-99.071328
+MFE,NA,NA,NA,NA,NA,unknown,MFE,McAllen Miller International Airport,McAllen,US,26.176141,-98.237965
+MGA,NA,NA,NA,NA,NA,unknown,MGA,Augusto C. Sandino (Managua) International Airport,Managua,NI,12.14150047302246,-86.16819763
+MGE,NA,NA,NA,NA,NA,unknown,MGE,Dobbins Air Reserve Base,Marietta,US,33.915401,-84.516296
+MGM,NA,NA,NA,NA,NA,unknown,MGM,Montgomery Regional (Dannelly Field) Airport,Montgomery,US,32.300598,-86.393997
+MHK,NA,NA,NA,NA,NA,unknown,MHK,Manhattan Regional Airport,Manhattan,US,39.14099884033203,-96.67079926
+MHR,NA,NA,NA,NA,NA,unknown,MHR,Sacramento Mather Airport,Sacramento,US,38.554744,-121.297989
+MHT,NA,NA,NA,NA,NA,unknown,MHT,Manchester-Boston Regional Airport,Manchester,US,42.932598,-71.435699
+MHV,NA,NA,NA,NA,NA,unknown,MHV,Mojave Airport,Mojave,US,35.05939865,-118.1520004
+MIA,NA,NA,NA,NA,NA,unknown,MIA,Miami International Airport,Miami,US,25.7932,-80.290604
+MIB,NA,NA,NA,NA,NA,unknown,MIB,Minot Air Force Base,Minot,US,48.4156,-101.358002
+MID,NA,NA,NA,NA,NA,unknown,MID,Manuel Crescencio Rejón International Airport,Mérida,MX,20.930485,-89.645462
+MJT,NA,NA,NA,NA,NA,unknown,MJT,Mytilene International Airport,Mytilene,GR,39.057272,26.598887
+MKC,NA,NA,NA,NA,NA,unknown,MKC,Charles B. Wheeler Downtown Airport,Kansas City,US,39.123199,-94.592796
+MKE,NA,NA,NA,NA,NA,unknown,MKE,General Mitchell International Airport,Milwaukee,US,42.947201,-87.896599
+MLU,NA,NA,NA,NA,NA,unknown,MLU,Monroe Regional Airport,Monroe,US,32.510899,-92.037697
+MRY,NA,NA,NA,NA,NA,unknown,MRY,Monterey Peninsula Airport,Monterey,US,36.58700180053711,-121.8430023
+MSL,NA,NA,NA,NA,NA,unknown,MSL,Northwest Alabama Regional Airport,Muscle Shoals,US,34.745123,-87.612981
+MSN,NA,NA,NA,NA,NA,unknown,MSN,Dane County Regional Truax Field,Madison,US,43.1399,-89.337502
+MSO,NA,NA,NA,NA,NA,unknown,MSO,Missoula International Airport,Missoula,US,46.91630173,-114.0910034
+MSP,NA,NA,NA,NA,NA,unknown,MSP,Minneapolis?Saint Paul International Airport / Wold?Chamberlain Field,Minneapolis,US,44.880081,-93.221741
+MSY,NA,NA,NA,NA,NA,unknown,MSY,Louis Armstrong New Orleans International Airport,New Orleans,US,29.993401,-90.258003
+MTY,NA,NA,NA,NA,NA,unknown,MTY,Monterrey International Airport,Monterrey,MX,25.778521,-100.106989
+MVD,NA,NA,NA,NA,NA,unknown,MVD,Carrasco General Cesáreo L. Berisso International Airport,Ciudad de la Costa,UY,-34.835647,-56.026497
+MWA,NA,NA,NA,NA,NA,unknown,MWA,Veterans Airport of Southern Illinois,Marion,US,37.751208,-89.016568
+MXF,NA,NA,NA,NA,NA,unknown,MXF,Maxwell Air Force Base,Montgomery,US,32.3829,-86.365799
+MYR,NA,NA,NA,NA,NA,unknown,MYR,Myrtle Beach International Airport,Myrtle Beach,US,33.679699,-78.928299
+MZJ,NA,NA,NA,NA,NA,unknown,MZJ,Pinal Airpark,Marana,US,32.51060104,-111.3280029
+MZT,NA,NA,NA,NA,NA,unknown,MZT,General Rafael Buelna International Airport,Mazatlàn,MX,23.161474,-106.264572
+NAP,NA,NA,NA,NA,NA,unknown,NAP,Naples International Airport,Napoli,IT,40.886002,14.2908
+NAS,NA,NA,NA,NA,NA,unknown,NAS,Lynden Pindling International Airport,Nassau,BS,25.039,-77.466202
+NBE,NA,NA,NA,NA,NA,unknown,NBE,Enfidha - Hammamet International Airport,Enfidha,TN,36.075833,10.438611
+NBW,NA,NA,NA,NA,NA,unknown,NBW,Leeward Point Field,Guantanamo Bay Naval Station,CU,19.9065,-75.2071
+NID,NA,NA,NA,NA,NA,unknown,NID,Naval Air Weapons Station China Lake,Ridgecrest,US,35.655341,-117.657391
+NJK,NA,NA,NA,NA,NA,unknown,NJK,El Centro NAF Airport (Vraciu Field),El Centro,US,32.829201,-115.671996
+NKX,NA,NA,NA,NA,NA,unknown,NKX,Miramar Marine Corps Air Station - Mitscher Field,San Diego,US,32.86840057,-117.1429977
+NLU,NA,NA,NA,NA,NA,unknown,NLU,General Felipe Ángeles International Airport,Mexico City,MX,19.7357,-99.0257
+NM9,NA,NA,NA,NA,NA,unknown,NM9,High Desert Ranch Airport,Corona,US,33.482616,-115.876158
+NTU,NA,NA,NA,NA,NA,unknown,NTU,Oceana Naval Air Station,Virginia Beach,US,36.820702,-76.033501
+OAJ,NA,NA,NA,NA,NA,unknown,OAJ,Albert J Ellis Airport,Richlands,US,34.829201,-77.612099
+OAK,NA,NA,NA,NA,NA,unknown,OAK,San Francisco Bay Oakland International Airport,Oakland,US,37.720085,-122.221184
+OHD,NA,NA,NA,NA,NA,unknown,OHD,Ohrid St. Paul the Apostle Airport,Ohrid,MK,41.18,20.7423
+OKC,NA,NA,NA,NA,NA,unknown,OKC,Will Rogers World Airport,Oklahoma City,US,35.393388,-97.598248
+OMA,NA,NA,NA,NA,NA,unknown,OMA,Eppley Airfield,Omaha,US,41.3032,-95.894096
+ONT,NA,NA,NA,NA,NA,unknown,ONT,Ontario International Airport,Ontario,US,34.056,-117.600998
+OPF,NA,NA,NA,NA,NA,unknown,OPF,Miami-Opa Locka Executive Airport,Miami,US,25.907,-80.278397
+ORD,NA,NA,NA,NA,NA,unknown,ORD,Chicago O'Hare International Airport,Chicago,US,41.9786,-87.9048
+ORF,NA,NA,NA,NA,NA,unknown,ORF,Norfolk International Airport,Norfolk,US,36.895341,-76.201
+ORH,NA,NA,NA,NA,NA,unknown,ORH,Worcester Regional Airport,Worcester,US,42.2673,-71.875702
+OSL,NA,NA,NA,NA,NA,unknown,OSL,"Oslo Airport, Gardermoen",Oslo (Gardermoen),NO,60.193901,11.1004
+OSR,NA,NA,NA,NA,NA,unknown,OSR,Ostrava Leos Janácek Airport,Mo?nov,CZ,49.696301,18.111099
+OTP,NA,NA,NA,NA,NA,unknown,OTP,Bucharest Henri Coanda International Airport,Otopeni,RO,44.572127,26.103396
+P08,NA,NA,NA,NA,NA,unknown,P08,Coolidge Municipal Airport,Coolidge,US,32.937289,-111.426616
+PAH,NA,NA,NA,NA,NA,unknown,PAH,Barkley Regional Airport,Paducah,US,37.06079864501953,-88.77380371
+PAP,NA,NA,NA,NA,NA,unknown,PAP,Toussaint Louverture International Airport,Port-au-Prince,HT,18.580023,-72.292596
+PBC,NA,NA,NA,NA,NA,unknown,PBC,Hermanos Serdán International Airport,Puebla,MX,19.158465,-98.371582
+PBG,NA,NA,NA,NA,NA,unknown,PBG,Plattsburgh International Airport,Plattsburgh,US,44.650901794433594,-73.4681015
+PBI,NA,NA,NA,NA,NA,unknown,PBI,Palm Beach International Airport,West Palm Beach,US,26.683201,-80.095596
+PBM,NA,NA,NA,NA,NA,unknown,PBM,Johan Adolf Pengel International Airport,Zandery,SR,5.45283,-55.187801
+PDX,NA,NA,NA,NA,NA,unknown,PDX,Portland International Airport,Portland,US,45.588699,-122.598
+PFO,NA,NA,NA,NA,NA,unknown,PFO,Paphos International Airport,Paphos,CY,34.717999,32.485699
+PGV,NA,NA,NA,NA,NA,unknown,PGV,Pitt-Greenville Airport,Greenville,US,35.635535,-77.384262
+PHF,NA,NA,NA,NA,NA,unknown,PHF,Newport News Williamsburg International Airport,Newport News,US,37.131901,-76.492996
+PHL,NA,NA,NA,NA,NA,unknown,PHL,Philadelphia International Airport,Philadelphia,US,39.871899,-75.241096
+PHX,NA,NA,NA,NA,NA,unknown,PHX,Phoenix Sky Harbor International Airport,Phoenix,US,33.435302,-112.005905
+PIA,NA,NA,NA,NA,NA,unknown,PIA,General Wayne A. Downing Peoria International Airport,Peoria,US,40.6642,-89.693298
+PIB,NA,NA,NA,NA,NA,unknown,PIB,Hattiesburg Laurel Regional Airport,Moselle,US,31.4671,-89.337097
+PIE,NA,NA,NA,NA,NA,unknown,PIE,St. Petersburg Clearwater International Airport,Pinellas Park,US,27.9102,-82.687401
+PIH,NA,NA,NA,NA,NA,unknown,PIH,Pocatello Regional Airport,Pocatello,US,42.9098014831543,-112.5960007
+PIT,NA,NA,NA,NA,NA,unknown,PIT,Pittsburgh International Airport,Pittsburgh,US,40.491501,-80.232903
+PLS,NA,NA,NA,NA,NA,unknown,PLS,Providenciales International Airport,Providenciales,TC,21.773697,-72.268321
+PMI,NA,NA,NA,NA,NA,unknown,PMI,Palma de Mallorca Airport,Palma de Mallorca,ES,39.551701,2.73881
+PNS,NA,NA,NA,NA,NA,unknown,PNS,Pensacola International Airport,Pensacola,US,30.4734,-87.1866
+POB,NA,NA,NA,NA,NA,unknown,POB,Pope Field,Fort Bragg,US,35.170898,-79.014503
+POP,NA,NA,NA,NA,NA,unknown,POP,Gregorio Luperon International Airport,Puerto Plata,DO,19.7579,-70.57
+POS,NA,NA,NA,NA,NA,unknown,POS,Piarco International Airport,Port of Spain,TT,10.5954,-61.3372
+PSE,NA,NA,NA,NA,NA,unknown,PSE,Mercedita International Airport,Ponce,PR,18.008301,-66.563004
+PSM,NA,NA,NA,NA,NA,unknown,PSM,Portsmouth International at Pease Airport,Portsmouth,US,43.07789993,-70.82330322
+PSP,NA,NA,NA,NA,NA,unknown,PSP,Palm Springs International Airport,Palm Springs,US,33.8297,-116.507004
+PTY,NA,NA,NA,NA,NA,unknown,PTY,Tocumen International Airport,Tocumen,PA,9.07136,-79.383499
+PUJ,NA,NA,NA,NA,NA,unknown,PUJ,Punta Cana International Airport,Punta Cana,DO,18.5674,-68.363403
+PUW,NA,NA,NA,NA,NA,unknown,PUW,Pullman-Moscow Regional Airport,Pullman,US,46.741601,-117.11163
+PVD,NA,NA,NA,NA,NA,unknown,PVD,Theodore Francis Green State Airport,Warwick,US,41.725038,-71.425668
+PVK,NA,NA,NA,NA,NA,unknown,PVK,Aktion National Airport,Preveza,GR,38.925499,20.765301
+PVR,NA,NA,NA,NA,NA,unknown,PVR,Puerto Vallarta International Airport,Puerto Vallarta,MX,20.679913,-105.254391
+PVU,NA,NA,NA,NA,NA,unknown,PVU,Provo-Utah Lake International Airport,Provo,US,40.2192,-111.723
+PWM,NA,NA,NA,NA,NA,unknown,PWM,Portland International Jetport,Portland,US,43.646198,-70.309303
+QRO,NA,NA,NA,NA,NA,unknown,QRO,Querétaro Intercontinental Airport,Querétaro,MX,20.6173,-100.185997
+RDU,NA,NA,NA,NA,NA,unknown,RDU,Raleigh Durham International Airport,Raleigh/Durham,US,35.877602,-78.787498
+RFD,NA,NA,NA,NA,NA,unknown,RFD,Chicago Rockford International Airport,Chicago/Rockford,US,42.1954,-89.097198
+RHO,NA,NA,NA,NA,NA,unknown,RHO,Diagoras Airport,Rhodes,GR,36.405399,28.086201
+RIC,NA,NA,NA,NA,NA,unknown,RIC,Richmond International Airport,Richmond,US,37.505199,-77.319702
+RIV,NA,NA,NA,NA,NA,unknown,RIV,March Air Reserve Base,Riverside,US,33.880699,-117.259003
+RIX,NA,NA,NA,NA,NA,unknown,RIX,Riga International Airport,Riga,LV,56.920752,23.970711
+RMO,NA,NA,NA,NA,NA,unknown,RMO,Chisinau International Airport,Chisinau,MD,46.9277,28.931
+RMS,NA,NA,NA,NA,NA,unknown,RMS,Ramstein Air Base,Ramstein-Miesenbach,DE,49.436901,7.60028
+RNO,NA,NA,NA,NA,NA,unknown,RNO,Reno Tahoe International Airport,Reno,US,39.4991,-119.767998
+ROA,NA,NA,NA,NA,NA,unknown,ROA,Roanoke?Blacksburg Regional Airport,Roanoke,US,37.3255,-79.975403
+ROC,NA,NA,NA,NA,NA,unknown,ROC,Frederick Douglass Greater Rochester International Airport,Rochester,US,43.1189,-77.672401
+RSW,NA,NA,NA,NA,NA,unknown,RSW,Southwest Florida International Airport,Fort Myers,US,26.53619956970215,-81.75520325
+RTB,NA,NA,NA,NA,NA,unknown,RTB,Juan Manuel Gálvez International Airport,Coxen Hole,HN,16.316799,-86.523003
+RTM,NA,NA,NA,NA,NA,unknown,RTM,Rotterdam The Hague Airport,Rotterdam,NL,51.956902,4.43722
+RYG,NA,NA,NA,NA,NA,unknown,RYG,Moss Airport Rygge,Moss,NO,59.375787,10.781426
+SAL,NA,NA,NA,NA,NA,unknown,SAL,Monseñor Óscar Arnulfo Romero International Airport,San Salvador (San Luis Talpa),SV,13.4409,-89.055702
+SAN,NA,NA,NA,NA,NA,unknown,SAN,San Diego International Airport,San Diego,US,32.73360062,-117.1900024
+SAP,NA,NA,NA,NA,NA,unknown,SAP,Ramón Villeda Morales International Airport,San Pedro Sula,HN,15.4526,-87.923599
+SAT,NA,NA,NA,NA,NA,unknown,SAT,San Antonio International Airport,San Antonio,US,29.533701,-98.469803
+SAV,NA,NA,NA,NA,NA,unknown,SAV,Savannah Hilton Head International Airport,Savannah,US,32.127602,-81.202103
+SBA,NA,NA,NA,NA,NA,unknown,SBA,Santa Barbara Municipal Airport,Santa Barbara,US,34.426201,-119.839996
+SBD,NA,NA,NA,NA,NA,unknown,SBD,San Bernardino International Airport,San Bernardino,US,34.095402,-117.235001
+SBN,NA,NA,NA,NA,NA,unknown,SBN,South Bend Regional Airport,South Bend,US,41.708698,-86.317299
+SBP,NA,NA,NA,NA,NA,unknown,SBP,San Luis County Regional Airport,San Luis Obispo,US,35.236801147499996,-120.6419983
+SCL,NA,NA,NA,NA,NA,unknown,SCL,Comodoro Arturo Merino Benítez International Airport,Santiago,CL,-33.39300156,-70.78579712
+SCU,NA,NA,NA,NA,NA,unknown,SCU,Antonio Maceo International Airport,Santiago,CU,19.96980094909668,-75.83540344
+SDF,NA,NA,NA,NA,NA,unknown,SDF,Louisville Muhammad Ali International Airport,Louisville,US,38.1744,-85.736
+SDQ,NA,NA,NA,NA,NA,unknown,SDQ,Las Américas International Airport,Santo Domingo,DO,18.42970085,-69.66889954
+SFB,NA,NA,NA,NA,NA,unknown,SFB,Orlando Sanford International Airport,Orlando,US,28.777599334716797,-81.23750305
+SFJ,NA,NA,NA,NA,NA,unknown,SFJ,Kangerlussuaq International Airport,Kangerlussuaq,GL,67.010446,-50.715294
+SFO,NA,NA,NA,NA,NA,unknown,SFO,San Francisco International Airport,San Francisco,US,37.619806,-122.374821
+SGF,NA,NA,NA,NA,NA,unknown,SGF,Springfield Branson National Airport,Springfield,US,37.245701,-93.388603
+SGU,NA,NA,NA,NA,NA,unknown,SGU,St George Regional Airport,St George,US,37.036389,-113.510306
+SHD,NA,NA,NA,NA,NA,unknown,SHD,Shenandoah Valley Regional Airport,Weyers Cave,US,38.263802,-78.8964
+SHV,NA,NA,NA,NA,NA,unknown,SHV,Shreveport Regional Airport,Shreveport,US,32.446602,-93.8256
+SJC,NA,NA,NA,NA,NA,unknown,SJC,Norman Y. Mineta San Jose International Airport,San Jose,US,37.362452,-121.929188
+SJD,NA,NA,NA,NA,NA,unknown,SJD,Los Cabos International Airport,San José del Cabo,MX,23.151919,-109.720731
+SJO,NA,NA,NA,NA,NA,unknown,SJO,Juan Santamaría International Airport,San José (Alajuela),CR,9.99386,-84.208801
+SJT,NA,NA,NA,NA,NA,unknown,SJT,San Angelo Regional Mathis Field,San Angelo,US,31.35770034790039,-100.4960022
+SJU,NA,NA,NA,NA,NA,unknown,SJU,Luis Munoz Marin International Airport,San Juan,PR,18.4394,-66.001801
+SKA,NA,NA,NA,NA,NA,unknown,SKA,Fairchild Air Force Base,Spokane,US,47.615101,-117.655998
+SKB,NA,NA,NA,NA,NA,unknown,SKB,Robert L. Bradshaw International Airport,Basseterre,KN,17.311199188232422,-62.71870041
+SKF,NA,NA,NA,NA,NA,unknown,SKF,Lackland Air Force Base,San Antonio,US,29.38419914,-98.58110046
+SLC,NA,NA,NA,NA,NA,unknown,SLC,Salt Lake City International Airport,Salt Lake City,US,40.78886,-111.979866
+SLP,NA,NA,NA,NA,NA,unknown,SLP,Ponciano Arriaga International Airport,San Luis Potosí,MX,22.254299163800003,-100.9309998
+SMF,NA,NA,NA,NA,NA,unknown,SMF,Sacramento International Airport,Sacramento,US,38.6954,-121.591003
+SMX,NA,NA,NA,NA,NA,unknown,SMX,Santa Maria Public Airport Captain G Allan Hancock Field,Santa Maria,US,34.898899,-120.457001
+SNN,NA,NA,NA,NA,NA,unknown,SNN,Shannon Airport,Shannon,IE,52.702,-8.92482
+SNU,NA,NA,NA,NA,NA,unknown,SNU,Abel Santamaria Airport,Santa Clara,CU,22.492201,-79.943604
+SPM,NA,NA,NA,NA,NA,unknown,SPM,Spangdahlem Air Base,Trier,DE,49.976507,6.698413
+SRQ,NA,NA,NA,NA,NA,unknown,SRQ,Sarasota Bradenton International Airport,Sarasota/Bradenton,US,27.394631,-82.554359
+SSC,NA,NA,NA,NA,NA,unknown,SSC,Shaw Air Force Base,Sumter,US,33.972698,-80.470596
+STL,NA,NA,NA,NA,NA,unknown,STL,St. Louis Lambert International Airport,St Louis,US,38.748697,-90.370003
+STR,NA,NA,NA,NA,NA,unknown,STR,Stuttgart Airport,Stuttgart,DE,48.689899,9.22196
+STS,NA,NA,NA,NA,NA,unknown,STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,US,38.50899887,-122.8130035
+STT,NA,NA,NA,NA,NA,unknown,STT,Cyril E. King Airport,Charlotte Amalie,VI,18.337091,-64.977251
+STX,NA,NA,NA,NA,NA,unknown,STX,Henry E Rohlsen Airport,Christiansted,VI,17.701413,-64.802608
+SUJ,NA,NA,NA,NA,NA,unknown,SUJ,Satu Mare International Airport,Satu Mare,RO,47.7033,22.8857
+SUX,NA,NA,NA,NA,NA,unknown,SUX,Sioux Gateway Airport / Brigadier General Bud Day Field,Sioux City,US,42.397605,-96.382237
+SVD,NA,NA,NA,NA,NA,unknown,SVD,Argyle International Airport,Kingstown,VC,13.156695,-61.149945
+SVN,NA,NA,NA,NA,NA,unknown,SVN,Hunter Army Air Field,Savannah,US,32.00999832,-81.14569855
+SWF,NA,NA,NA,NA,NA,unknown,SWF,New York Stewart International Airport,Newburgh,US,41.504101,-74.104797
+SWO,NA,NA,NA,NA,NA,unknown,SWO,Stillwater Regional Airport,Stillwater,US,36.162132,-97.085581
+SXM,NA,NA,NA,NA,NA,unknown,SXM,Princess Juliana International Airport,Sint Maarten,SX,18.041,-63.108898
+SYR,NA,NA,NA,NA,NA,unknown,SYR,Syracuse Hancock International Airport,Syracuse,US,43.11119842529297,-76.10630035
+TAM,NA,NA,NA,NA,NA,unknown,TAM,General Francisco Javier Mina International Airport,Tampico,MX,22.29640007,-97.86589813
+TAP,NA,NA,NA,NA,NA,unknown,TAP,Tapachula International Airport,Tapachula,MX,14.794549,-92.369871
+TBS,NA,NA,NA,NA,NA,unknown,TBS,Tbilisi International Airport,Tbilisi,GE,41.669201,44.9547
+TCL,NA,NA,NA,NA,NA,unknown,TCL,Tuscaloosa National Airport,Tuscaloosa,US,33.2206,-87.611397
+TGD,NA,NA,NA,NA,NA,unknown,TGD,Podgorica Airport / Podgorica Golubovci Airbase,Podgorica,ME,42.359402,19.2519
+TJU,NA,NA,NA,NA,NA,unknown,TJU,Kulob Airport,Kulyab,TJ,37.98809814453125,69.80500030517578
+TLC,NA,NA,NA,NA,NA,unknown,TLC,Adolfo López Mateos International Airport,Toluca,MX,19.3369,-99.56583
+TLH,NA,NA,NA,NA,NA,unknown,TLH,Tallahassee Regional Airport,Tallahassee,US,30.3965,-84.350304
+TLV,NA,NA,NA,NA,NA,unknown,TLV,Ben Gurion International Airport,Tel Aviv,IL,32.011398,34.8867
+TOL,NA,NA,NA,NA,NA,unknown,TOL,Eugene F. Kranz Toledo Express Airport,Toledo,US,41.5868,-83.8078
+TPA,NA,NA,NA,NA,NA,unknown,TPA,Tampa International Airport,Tampa,US,27.9755,-82.533203
+TRC,NA,NA,NA,NA,NA,unknown,TRC,Francisco Sarabia Tinoco International Airport,Torreón,MX,25.5683,-103.411003
+TRF,NA,NA,NA,NA,NA,unknown,TRF,"Sandefjord Airport, Torp",Torp,NO,59.186699,10.2586
+TRN,NA,NA,NA,NA,NA,unknown,TRN,Turin Airport,Caselle Torinese (TO),IT,45.200802,7.64963
+TTN,NA,NA,NA,NA,NA,unknown,TTN,Trenton Mercer Airport,Ewing Township,US,40.276699,-74.813499
+TUL,NA,NA,NA,NA,NA,unknown,TUL,Tulsa International Airport,Tulsa,US,36.19839859008789,-95.88809967
+TUP,NA,NA,NA,NA,NA,unknown,TUP,Tupelo Regional Airport,Tupelo,US,34.26810073852539,-88.76989746
+TUS,NA,NA,NA,NA,NA,unknown,TUS,Tucson International Airport / Morris Air National Guard Base,Tucson,US,32.115004,-110.938053
+TVC,NA,NA,NA,NA,NA,unknown,TVC,Cherry Capital Airport,Traverse City,US,44.74140167236328,-85.5821991
+TYS,NA,NA,NA,NA,NA,unknown,TYS,McGhee Tyson Airport,Alcoa,US,35.811001,-83.994003
+UIO,NA,NA,NA,NA,NA,unknown,UIO,Mariscal Sucre International Airport,Quito,EC,-0.125399,-78.354306
+UNV,NA,NA,NA,NA,NA,unknown,UNV,State College Regional Airport,State College,USA,40.851777,-77.850367
+USA,NA,NA,NA,NA,NA,unknown,USA,Concord-Padgett Regional Airport,Concord,US,35.387798,-80.709099
+UVF,NA,NA,NA,NA,NA,unknown,UVF,Hewanorra International Airport,Vieux Fort,LC,13.7332,-60.952599
+VCV,NA,NA,NA,NA,NA,unknown,VCV,Southern California Logistics Airport,Victorville,US,34.597499847399995,-117.3830032
+VIE,NA,NA,NA,NA,NA,unknown,VIE,Vienna International Airport,Vienna,AT,48.110298,16.5697
+VOK,NA,NA,NA,NA,NA,unknown,VOK,Volk Field,Camp Douglas,US,43.938999,-90.253403
+VQQ,NA,NA,NA,NA,NA,unknown,VQQ,Cecil Airport,Jacksonville,US,30.2187,-81.876701
+VRA,NA,NA,NA,NA,NA,unknown,VRA,Juan Gualberto Gomez International Airport,Matanzas,CU,23.034401,-81.435303
+VSA,NA,NA,NA,NA,NA,unknown,VSA,Carlos Rovirosa Pérez International Airport,Villahermosa,MX,17.997,-92.817398
+WRI,NA,NA,NA,NA,NA,unknown,WRI,Mc Guire Air Force Base,Wrightstown,US,40.0155983,-74.59169769
+XNA,NA,NA,NA,NA,NA,unknown,XNA,Northwest Arkansas National Airport,Fayetteville/Springdale/Rogers,US,36.281898,-94.306801
+XPL,NA,NA,NA,NA,NA,unknown,XPL,Palmerola International Airport / José Enrique Soto Cano Air Base,Palmerola,HN,14.3824,-87.621201
+XRY,NA,NA,NA,NA,NA,unknown,XRY,Jerez Airport,Jerez de la Frontera,ES,36.744598,-6.06011
+XWA,NA,NA,NA,NA,NA,unknown,XWA,Williston Basin International Airport,Williston,US,48.258387,-103.748797
+YEG,NA,NA,NA,NA,NA,unknown,YEG,Edmonton International Airport,Edmonton,CA,53.3097,-113.580002
+YFC,NA,NA,NA,NA,NA,unknown,YFC,Fredericton Airport,Fredericton,CA,45.868900299072266,-66.53720093
+YIP,NA,NA,NA,NA,NA,unknown,YIP,Willow Run Airport,Detroit,US,42.2379,-83.530403
+YKM,NA,NA,NA,NA,NA,unknown,YKM,Yakima Air Terminal McAllister Field,Yakima,US,46.56819916,-120.5439987
+YNG,NA,NA,NA,NA,NA,unknown,YNG,Youngstown Warren Regional Airport,Youngstown/Warren,US,41.26070023,-80.67910004
+YOW,NA,NA,NA,NA,NA,unknown,YOW,Ottawa Macdonald-Cartier International Airport,Ottawa,CA,45.322498,-75.669197
+YQB,NA,NA,NA,NA,NA,unknown,YQB,Quebec Jean Lesage International Airport,Quebec,CA,46.7911,-71.393303
+YQM,NA,NA,NA,NA,NA,unknown,YQM,Greater Moncton Roméo LeBlanc International Airport,Moncton,CA,46.112202,-64.678596
+YQX,NA,NA,NA,NA,NA,unknown,YQX,Gander International Airport / CFB Gander,Gander,CA,48.936258,-54.567719
+YUL,NA,NA,NA,NA,NA,unknown,YUL,Montreal / Pierre Elliott Trudeau International Airport,Montréal,CA,45.467837,-73.742294
+YUM,NA,NA,NA,NA,NA,unknown,YUM,Yuma International Airport / Marine Corps Air Station Yuma,Yuma,US,32.650938,-114.609375
+YVR,NA,NA,NA,NA,NA,unknown,YVR,Vancouver International Airport,Vancouver,CA,49.19390106,-123.1839981
+YWG,NA,NA,NA,NA,NA,unknown,YWG,Winnipeg / James Armstrong Richardson International Airport,Winnipeg,CA,49.909999847399995,-97.23989868
+YYC,NA,NA,NA,NA,NA,unknown,YYC,Calgary International Airport,Calgary,CA,51.118822,-114.009933
+YYJ,NA,NA,NA,NA,NA,unknown,YYJ,Victoria International Airport,Victoria,CA,48.647201,-123.427792
+YYR,NA,NA,NA,NA,NA,unknown,YYR,Goose Bay Airport,Goose Bay,CA,53.31919861,-60.42580032
+YYZ,NA,NA,NA,NA,NA,unknown,YYZ,Toronto Lester B. Pearson International Airport,Toronto,CA,43.6772,-79.6306
+ZAZ,NA,NA,NA,NA,NA,unknown,ZAZ,Zaragoza Airport,Zaragoza,ES,41.666199,-1.04155
+ZIH,NA,NA,NA,NA,NA,unknown,ZIH,Ixtapa-Zihuatanejo International Airport,Ixtapa,MX,17.601771,-101.460629
+ZTH,NA,NA,NA,NA,NA,unknown,ZTH,Zakynthos International Airport Dionysios Solomos,Zakynthos,GR,37.7509,20.8843
