@@ -20,16 +20,16 @@ body {
   pointer-events: none;
 }
 
-/* Label bubble */
+/* Label bubble (tight background) */
 .airport-label span {
   display: inline-block;
   background: rgba(255,255,255,0.95);
-  color: #b30000;
+  color: #6cc24a;                 /* PMS 360 C */
   font-size: 11px;
   font-weight: 600;
   padding: 2px 5px;
   border-radius: 4px;
-  border: 1px solid #ffb3b3;
+  border: 1px solid #6cc24a;
   box-shadow: 0 1px 3px rgba(0,0,0,0.25);
   white-space: nowrap;
 }
@@ -86,18 +86,19 @@ Papa.parse(csvUrl, {
 
       if (!lat || !lon) return;
 
-      // 🔴 Soft red airport dot
+      // 🟢 City Dot Green (PMS 360 C)
       const dot = L.circleMarker([lat, lon], {
         radius: 7,
-        color: "#b30000",
+        color: "#6cc24a",
         weight: 1,
-        fillColor: "#ff4d4d",
-        fillOpacity: 0.55
+        fillColor: "#6cc24a",
+        fillOpacity: 0.55     // soft / less dense
       }).addTo(map);
 
       // Hover info
       dot.bindTooltip(
-        `<strong>${iata || "N/A"}</strong><br>Name: ${name || "N/A"}`,
+        `<strong style="color:#6cc24a">${iata || "N/A"}</strong><br>
+         Name: ${name || "N/A"}`,
         {
           direction: "top",
           sticky: true,
@@ -105,12 +106,12 @@ Papa.parse(csvUrl, {
         }
       );
 
-      // Label (initially hidden)
+      // Label (hidden until zoom)
       const label = L.marker([lat, lon], {
         icon: L.divIcon({
           className: "airport-label",
           html: `<span>${iata || ""}</span>`,
-          iconAnchor: [10, 30]   // above dot
+          iconAnchor: [10, 30]
         }),
         interactive: false
       });
@@ -148,7 +149,6 @@ function updateLabels() {
   });
 }
 
-// Update on zoom & pan
 map.on("zoomend moveend", updateLabels);
 </script>
 
