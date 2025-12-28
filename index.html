@@ -20,11 +20,11 @@ body {
   pointer-events: none;
 }
 
-/* Label bubble (tight background) */
+/* Label bubble */
 .airport-label span {
   display: inline-block;
   background: rgba(255,255,255,0.95);
-  color: #6cc24a;                 /* PMS 360 C */
+  color: #6cc24a;
   font-size: 11px;
   font-weight: 600;
   padding: 2px 5px;
@@ -34,7 +34,7 @@ body {
   white-space: nowrap;
 }
 
-/* Tooltip (hover name) */
+/* Tooltip */
 .leaflet-tooltip {
   background: rgba(255,255,255,0.95);
   color: #333;
@@ -55,7 +55,7 @@ body {
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
 <script>
-// -------------------- MAP --------------------
+// ==================== MAP ====================
 const map = L.map("map").setView([20, 0], 2);
 
 // Light blue basemap
@@ -64,14 +64,19 @@ L.tileLayer(
   { attribution: "&copy; OpenStreetMap &copy; CARTO" }
 ).addTo(map);
 
-// -------------------- DATA --------------------
+// ==================== CONFIG ====================
 const csvUrl =
   "https://raw.githubusercontent.com/two3four/Airports_cordes/main/done--airports_448_completed.csv";
 
-const labels = [];
 const LABEL_ZOOM = 6;
 const MIN_PIXEL_DISTANCE = 42;
 
+// Airports to highlight
+const HIGHLIGHT_AIRPORTS = ["MIA", "AEX", "HRL"];
+
+const labels = [];
+
+// ==================== LOAD DATA ====================
 Papa.parse(csvUrl, {
   download: true,
   header: true,
@@ -86,18 +91,36 @@ Papa.parse(csvUrl, {
 
       if (!lat || !lon) return;
 
-      // 🟢 City Dot Green (PMS 360 C)
-      const dot = L.circleMarker([lat, lon], {
+      const isHighlight = HIGHLIGHT_AIRPORTS.includes(iata);
+
+      // ---- DOT STYLE ----
+      let dotStyle = {
         radius: 7,
         color: "#6cc24a",
         weight: 1,
         fillColor: "#6cc24a",
-        fillOpacity: 0.55     // soft / less dense
-      }).addTo(map);
+        fillOpacity: 0.55
+      };
 
-      // Hover info
+      // Highlighted airports (RED)
+      if (isHighlight) {
+        dotStyle = {
+          radius: 9,
+          color: "#cc0000",
+          weight: 2,
+          fillColor: "#ff3333",
+          fillOpacity: 0.9
+        };
+      }
+
+      // Draw dot
+      const dot = L.circleMarker([lat, lon], dotStyle).addTo(map);
+
+      // Hover tooltip
       dot.bindTooltip(
-        `<strong style="color:#6cc24a">${iata || "N/A"}</strong><br>
+        `<strong style="color:${isHighlight ? '#cc0000' : '#6cc24a'}">
+           ${iata || "N/A"}
+         </strong><br>
          Name: ${name || "N/A"}`,
         {
           direction: "top",
@@ -106,11 +129,14 @@ Papa.parse(csvUrl, {
         }
       );
 
-      // Label (hidden until zoom)
+      // ---- LABEL (hidden until zoom) ----
       const label = L.marker([lat, lon], {
         icon: L.divIcon({
           className: "airport-label",
-          html: `<span>${iata || ""}</span>`,
+          html: `<span style="color:${isHighlight ? '#cc0000' : '#6cc24a'};
+                          border-color:${isHighlight ? '#cc0000' : '#6cc24a'}">
+                  ${iata || ""}
+                </span>`,
           iconAnchor: [10, 30]
         }),
         interactive: false
@@ -126,7 +152,7 @@ Papa.parse(csvUrl, {
   }
 });
 
-// -------------------- LABEL COLLISION LOGIC --------------------
+// ==================== LABEL COLLISION ====================
 function updateLabels() {
   labels.forEach(l => map.removeLayer(l.marker));
 
@@ -149,6 +175,7 @@ function updateLabels() {
   });
 }
 
+// Recalculate on zoom & pan
 map.on("zoomend moveend", updateLabels);
 </script>
 
