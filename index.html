@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <title>Airports Map</title>
 
-<!-- Leaflet CSS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
 <style>
@@ -40,7 +39,6 @@ body { margin: 0; }
 <body>
 <div id="map"></div>
 
-<!-- Leaflet JS -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
@@ -48,34 +46,38 @@ body { margin: 0; }
 // ==================== MAP ====================
 const map = L.map("map").setView([20, 0], 2);
 
-// Blue basemap
-L.tileLayer(
+// Custom pane for highlighted airports (always on top)
+map.createPane("highlightPane");
+map.getPane("highlightPane").style.zIndex = 650;
+
+// Basemap with opacity
+const basemap = L.tileLayer(
   "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
-  { attribution: "&copy; OpenStreetMap &copy; CARTO" }
+  {
+    attribution: "&copy; OpenStreetMap &copy; CARTO",
+    opacity: 0.6
+  }
 ).addTo(map);
 
-// ==================== GEOJSON WORLD LAYER ====================
+// ==================== WORLD GEOJSON ====================
 const worldGeoJsonUrl =
   "https://raw.githubusercontent.com/two3four/Airports_cordes/main/word%20map.geojson";
 
 fetch(worldGeoJsonUrl)
   .then(res => res.json())
   .then(data => {
-
     const worldLayer = L.geoJSON(data, {
       style: {
         color: "#00a9e0",
-        weight: 0.6,        // thinner outline
-        opacity: 0.45,      // softer stroke
+        weight: 0.6,
+        opacity: 0.45,
         fillColor: "#00a9e0",
-        fillOpacity: 0.2    // your final value
+        fillOpacity: 0.2
       }
     }).addTo(map);
 
-    // ⬇️ SEND TO BACK
     worldLayer.bringToBack();
   });
-
 
 // ==================== CONFIG ====================
 const csvUrl =
@@ -83,10 +85,13 @@ const csvUrl =
 
 const LABEL_ZOOM = 6;
 const MIN_PIXEL_DISTANCE = 42;
+
+// Airports to highlight (BLUE)
 const HIGHLIGHT_AIRPORTS = ["MIA", "AEX", "HRL"];
+
 const labels = [];
 
-// ==================== LOAD AIRPORT DATA ====================
+// ==================== LOAD AIRPORTS ====================
 Papa.parse(csvUrl, {
   download: true,
   header: true,
@@ -109,37 +114,45 @@ Papa.parse(csvUrl, {
         color: "#6cc24a",          // PMS 360 C
         weight: 1,
         fillColor: "#6cc24a",
-        fillOpacity: 0.55
+        fillOpacity: 0.55,
+        pane: "markerPane"
       };
 
+      // Highlighted airports (BLUE)
       if (isHighlight) {
         dotStyle = {
           radius: 9,
-          color: "#cc0000",
+          color: "#00a9e0",        // PMS 2995 C
           weight: 2,
-          fillColor: "#ff3333",
-          fillOpacity: 0.9
+          fillColor: "#00a9e0",
+          fillOpacity: 0.9,
+          pane: "highlightPane"
         };
       }
 
       const dot = L.circleMarker([lat, lon], dotStyle).addTo(map);
 
+      // Hover tooltip
       dot.bindTooltip(
-        `<strong style="color:${isHighlight ? '#cc0000' : '#6cc24a'}">
+        `<strong style="color:${isHighlight ? '#00a9e0' : '#6cc24a'}">
            ${iata || "N/A"}
          </strong><br>
          Name: ${name || "N/A"}`,
-        { direction: "top", sticky: true }
+        {
+          direction: "top",
+          sticky: true,
+          offset: [0, -10]
+        }
       );
 
-      // Label
+      // Label (hidden until zoom)
       const label = L.marker([lat, lon], {
         icon: L.divIcon({
           className: "airport-label",
           html: `
             <span style="
-              color:${isHighlight ? '#cc0000' : '#6cc24a'};
-              border:1px solid ${isHighlight ? '#cc0000' : '#6cc24a'};
+              color:${isHighlight ? '#00a9e0' : '#6cc24a'};
+              border:1px solid ${isHighlight ? '#00a9e0' : '#6cc24a'};
             ">
               ${iata || ""}
             </span>
@@ -162,15 +175,19 @@ Papa.parse(csvUrl, {
 // ==================== LABEL COLLISION ====================
 function updateLabels() {
   labels.forEach(l => map.removeLayer(l.marker));
+
   if (map.getZoom() < LABEL_ZOOM) return;
 
   const placed = [];
+
   labels.forEach(l => {
     const p = map.latLngToContainerPoint(l.latlng);
+
     const tooClose = placed.some(pp =>
       Math.abs(pp.x - p.x) < MIN_PIXEL_DISTANCE &&
       Math.abs(pp.y - p.y) < MIN_PIXEL_DISTANCE
     );
+
     if (!tooClose) {
       l.marker.addTo(map);
       placed.push(p);
